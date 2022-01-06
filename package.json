@@ -1,0 +1,24 @@
+{
+  "name": "js-fe-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa02045/js-fe-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sa02045/js-fe-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sa02045/js-fe-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "webpack": "^5.65.0"
+  }
+}

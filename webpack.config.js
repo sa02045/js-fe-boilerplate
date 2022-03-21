@@ -26,6 +26,17 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
+      {
+        test: /\.js$/,
+        include: [path.resolve(__dirname, "src/js")],
+        exclude: /(node_modules)|(dist)/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            preset: ["@babel/preset-env"],
+          },
+        },
+      },
     ],
   },
   optimization: {

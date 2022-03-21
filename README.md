@@ -34,3 +34,26 @@ npm i -D @babel/core @babel/preset-env @babel/cli
 2. `@babel/preset-env`
 
 - 어떻게 변환해야할지 규칙인 플러그인을 모아놓은 세트
+
+## 설정 방법
+
+1. 설정파일 생성
+
+아래 파일명 중 하나 생성
+
+- `babel.config.js`
+- 💥`babel.config.json` : 공식홈페이지 추천
+- `.babelrc`
+- `.babelrc.js`
+
+## 플러그인 설명
+
+1. `@babel/plugin-transform-template-literals`
+
+Template literals을 변환해주는 플러그인
+
+```js
+`foo${bar}`;
+
+"foo".concat(bar);
+```

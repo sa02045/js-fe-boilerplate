@@ -14,7 +14,7 @@ module.exports = {
   mode: "development",
   plugins: [
     new HtmlWebpackPlugin({
-      title: "keyoboard",
+      title: "js-fe-boilertemplate",
       template: "./index.html",
       inject: "body",
     }),
@@ -29,6 +29,6 @@ module.exports = {
     ],
   },
   optimization: {
-    minimizer: [new TerserWebpackPlugin(), new CssMinimizerPlugin()],
+    minimizer: [new TerserWebpackPlugin({}), new CssMinimizerPlugin()],
   },
 };
